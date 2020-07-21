@@ -19,15 +19,15 @@ import Parallax from "components/Parallax/Parallax.js";
 
 import profile from "assets/img/faces/mypic.jpg";
 
-import studio1 from "assets/img/examples/studio-1.jpg";
-import studio2 from "assets/img/examples/studio-2.jpg";
-import studio3 from "assets/img/examples/studio-3.jpg";
-import studio4 from "assets/img/examples/studio-4.jpg";
-import studio5 from "assets/img/examples/studio-5.jpg";
+import studio1 from "assets/img/QC_logo_sm.jpg";
+import studio2 from "assets/img/pi.jpg";
+import studio3 from "assets/img/cloud.jpg";
+import studio4 from "assets/img/watch.jpg";
+import studio5 from "assets/img/family.jpg";
 import work1 from "assets/img/examples/olu-eletu.jpg";
 import work2 from "assets/img/examples/clem-onojeghuo.jpg";
 import work3 from "assets/img/examples/cynthia-del-rio.jpg";
-import work4 from "assets/img/examples/mariya-georgieva.jpg";
+import work4 from "assets/img/angel.jpg";
 import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 import styles from "assets/jss/material-kit-react/views/profilePage.js";
@@ -97,7 +97,7 @@ export default function ProfilePage(props) {
                   color="primary"
                   tabs={[
                     {
-                      tabButton: "Studio",
+                      tabButton: "Company",
                       tabIcon: Camera,
                       tabContent: (
                         <GridContainer justify="center">
@@ -129,7 +129,7 @@ export default function ProfilePage(props) {
                       )
                     },
                     {
-                      tabButton: "Work",
+                      tabButton: "Projects",
                       tabIcon: Palette,
                       tabContent: (
                         <GridContainer justify="center">
@@ -166,7 +166,7 @@ export default function ProfilePage(props) {
                       )
                     },
                     {
-                      tabButton: "Favorite",
+                      tabButton: "Contributions",
                       tabIcon: Favorite,
                       tabContent: (
                         <GridContainer justify="center">
